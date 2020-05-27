@@ -35,3 +35,5 @@ import_terrain(
 That's it! You got it!
 
 ## Gallery
+![lr2-sandy-bay-sunset](/gallery/sandy-bay-sunset.png)
+
