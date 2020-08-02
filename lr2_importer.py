@@ -1,9 +1,13 @@
 import os
 from lr2_terrain import LR2_Terrain
-
 import terr_bundler
-import bl_terr_make_mesh
-import bl_terr_create_renderer
+
+import sys
+
+# ONLY if the script is executed under Blender.
+if "bpy" in sys.modules:
+    import bl_terr_make_mesh
+    import bl_terr_create_renderer
 
 
 def _solve_terrain_simplified_name(terrain_name: str):
